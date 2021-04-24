@@ -5,6 +5,15 @@
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "e55798f3-e925-42df-ada2-de32d34e73f9",
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="mdc-card mdc-card--outlined" data-mdc-auto-init="MDCRipple">
