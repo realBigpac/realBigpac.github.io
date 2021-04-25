@@ -29,7 +29,6 @@
     <script src ="./incjs/project.js"></script>
     <script>
       window.mdc.autoInit();
-      document.querySelector(".example").style.display = "none"
 
       for (let project of projects) {
         let clone = document.querySelector(".card").cloneNode(true)
@@ -39,10 +38,11 @@
         clone.querySelector(".repo").setAttribute("href", project.repo)
         clone.querySelector(".func-pg").setAttribute("href", project.func_page)
         clone.querySelector(".image").setAttribute("src", project.img)
-        if (projects.display){
+        //if (projects.display == "true"){
           document.querySelector(".projects").appendChild(clone)
-        }
+        //}
       }
+      document.querySelector(".example").style.display = "none"
     </script>
   </body>
 </html>

@@ -6,7 +6,7 @@ let projects = [
     "repo": "https://github.com/realBigpac/IT202-Spring2021-activities/blob/master/mdnCanvasTutorial.html",
     "func_page": "https://realbigpac.github.io/IT202-Spring2021-activities/mdnCanvasTutorial",
     "img": "incjs/projimgs/mdnCanvasTutorial.png",
-    "display": true
+    "display": "true"
   },
   {
     "proj_name": "locationAwareMap",
