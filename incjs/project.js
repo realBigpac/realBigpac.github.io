@@ -15,7 +15,7 @@ let projects = [
     "repo": "https://github.com/realBigpac/IT202-Spring2021-activities/blob/master/locationAwareMap.html",
     "func_page": "https://realbigpac.github.io/IT202-Spring2021-activities/locationAwareMap",
     "img": "incjs/projimgs/locationAwareMap.png",
-    "display": true
+    "display": "true"
   },
   {
     "proj_name": "mcw_basics",
@@ -24,7 +24,7 @@ let projects = [
     "repo": "https://github.com/realBigpac/IT202-Spring2021-activities/blob/master/mcw_basics.html",
     "func_page": "https://realbigpac.github.io/IT202-Spring2021-activities/mcw_basics",
     "img": "incjs/projimgs/mcw_basics.png",
-    "display": true
+    "display": "true"
   },
   {
     "proj_name": "chart_basics",
@@ -33,7 +33,7 @@ let projects = [
     "repo": "https://github.com/realBigpac/IT202-Spring2021-activities/blob/master/chart_basics.html",
     "func_page": "https://realbigpac.github.io/IT202-Spring2021-activities/chart_basics",
     "img": "incjs/projimgs/chart_basics.png",
-    "display": true
+    "display": "true"
   },
   {
     "proj_name": "bootstrap_rwd_basics",
@@ -42,6 +42,6 @@ let projects = [
     "repo": "https://github.com/realBigpac/IT202-Spring2021-activities/blob/master/bootstrap_rwd_basics.html",
     "func_page": "https://realbigpac.github.io/IT202-Spring2021-activities/bootstrap_rwd_basics",
     "img": "incjs/projimgs/bootstrap_rwd_basics.png",
-    "display": true
+    "display": "true"
   }
 ]
