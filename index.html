@@ -16,11 +16,33 @@
     </script>
   </head>
   <body>
-    <div class="mdc-card mdc-card--outlined" data-mdc-auto-init="MDCRipple">
-      <div>text here</div>
+    <div class="projects">
+      <div class="mdc-card mdc-card--outlined example card" data-mdc-auto-init="MDCRipple">
+        <h class="proj-name"></h>
+        <p class="proj-desc"></p>
+        <p class="lang"></p>
+        <a class="repo">repo</a>
+        <a class="func-pg">functional page</a>
+        <img class="image">
+      </div>
     </div>
+    <script src ="./incjs/project.js"></script>
     <script>
       window.mdc.autoInit();
+      document.querySelector(".example").style.display = "none"
+
+      for (let project of projects) {
+        let clone = document.querySelector(".card").cloneNode(true)
+        clone.querySelector(".proj-name").innerText = project.proj_name
+        clone.querySelector(".proj-desc").innerText = project.proj_desc
+        clone.querySelector(".lang").innerText = project.language
+        clone.querySelector(".repo").setAttribute("href", project.repo)
+        clone.querySelector(".func-pg").setAttribute("href", project.func_page)
+        clone.querySelector(".image").setAttribute("src", project.img)
+        if (projects.display){
+          document.querySelector(".projects").appendChild(clone)
+        }
+      }
     </script>
   </body>
 </html>
